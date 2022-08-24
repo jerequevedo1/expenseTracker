@@ -4,7 +4,6 @@ import './ExpensesList.css'
 const ExpensesList = props => {
 
     if (props.items.length === 0) {
-        console.log("items cero");
         return <h2 className='expenses-list__fallback'>Found no expenses.</h2>;
     }
 
